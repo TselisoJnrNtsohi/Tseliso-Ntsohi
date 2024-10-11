@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('M.jpg'); /* Add your background image path here */
+    background-size: cover; /* Cover the entire body */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: #333;
+}
+
+h1 {
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    padding: 20px;
+}
+
+.logo {
+    max-width: 150px; /* Adjust logo size */
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 10px; /* Space between title and nav */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display items in a row */
+    justify-content: center; /* Center nav items */
+}
+
+nav ul li {
+    margin: 0 15px; /* Space between nav items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Link color */
+    font-size: 18px; /* Font size */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Carousel Styles */
+.carousel {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    margin: 20px; /* Add margin around carousel */
+    max-width: 800px; /* Set max width for the carousel */
+    text-justify: inter-character;
+    font-size: 20px;
+}
+
+.carousel-item {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Center vertically */
+    margin: 10px 0; /* Space between items */
+    width: 100%; /* Full width */
+    color: black;
+}
+
+.carousel-item img {
+    width: 300px; /* Fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for images */
+    margin-right: 15px; /* Space between image and text */
+}
+
+.carousel-item h2 {
+    margin: 0; /* Remove default margin */
+    color:  white; /* Text color */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    border-top: solid black;
+}
+
+footer p {
+    margin: 0; /* Remove defa
+

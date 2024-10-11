@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('A.jpg'); /* Add your background image path here */
+    background-size: cover; /* Cover the entire body */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: #333;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    padding: 20px;
+
+}
+
+.logo {
+    max-width: 150px; /* Adjust logo size */
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 20px; /* Space between logo and nav */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display items in a row */
+    justify-content: center; /* Center nav items */
+}
+
+nav ul li {
+    margin: 0 15px; /* Space between nav items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Change link color */
+    font-size: 18px; /* Adjust font size */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    max-width: 800px; /* Adjust max width as needed */
+    margin: 20px auto; /* Center the section */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 30px;
+}
+
+h2 {
+    margin-top: 0; /* Remove margin from top of h2 */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+}
